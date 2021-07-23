@@ -7,7 +7,7 @@ import * as React from 'react'
 export const useMobileMenuState = () => {
   const [isOpen, actions] = useBoolean();
 
-  const [isMobile] = useMediaQuery("(max-width: 767px)")
+  const [isMobile] = useMediaQuery("(max-width: 768px)")
 
   React.useEffect(() => {
     if (isMobile === false) {

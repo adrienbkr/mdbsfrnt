@@ -116,7 +116,7 @@ export const LPrivate = ({
               px={{ base: "2", md: "8" }}
               py="2"
               position="sticky"
-              top={{ base: "5em", md: "4em" }}
+              top={{ base: "5em", md: "3em" }}
             >
               {actions}
             </Flex>
